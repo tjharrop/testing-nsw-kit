@@ -22,12 +22,13 @@ Now we tell github pages to host the prototype
 
 Your website is ready to go!
 
-*Editing the nav*
+**Editing the nav**
+
 Your navigation is generated from a file in your repository. It's in `_data` and it's called `navs.yml`
 
 It uses the YAML format - there are editors out there to help
 
-*Creating pages*
+**Creating pages**
 
 If you create a file, it will adopt the template. If you create a directory and call the page 'index.md' for markup or 'index.html' if you prefer HTML, it will show by default.
 
