@@ -20,7 +20,11 @@ Now we tell github pages to host the prototype
 3. Scroll down to github pages
 4. Select the master branch as the source (in the drop-down) and click save. It'll take about 10 minutes to build. The URL will be shown to you
 
-Your website is ready to go!
+Change settings so it all works
+1. In github, or an editor, edit the `_config.yml` file. Change the `baseurl:` to `/your-repo-name`
+2. Change `title:` and `description:` to match your project
+
+### Your website is ready to go!
 
 **Editing the nav**
 
