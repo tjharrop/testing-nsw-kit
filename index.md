@@ -36,6 +36,15 @@ It uses the YAML format - there are editors out there to help
 
 If you create a file, it will adopt the template. If you create a directory and call the page 'index.md' for markup or 'index.html' if you prefer HTML, it will show by default.
 
+**Other options**
+
+There are 3 templates, which you can change using the 'layout' option in the page settings
+- default - no side nav
+- sidenav - contains a side-nav
+- accordion - contains a side nav which shows/hides
+
+You can set the site 'stage' (such as alpa/prototype/beta) in the `_config.yml` file
+
 ### Tech
 [NSW-uikit-starter](https://github.com/tjharrop/nsw-uikit-starter) is a fork of the DTA's [Uikit Starter](https://github.com/govau/uikit-starter) which, instead of being static HTML files, generates a NSW-branded theme for Jekyll, the Ruby on Rails static site builder used by github pages.
 
