@@ -1,6 +1,7 @@
 ---
 layout: sidenav
 ---
+
 # NSW Government github pages template
 
 ### Background
