@@ -7,3 +7,7 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: ""
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
